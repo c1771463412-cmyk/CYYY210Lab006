@@ -22,7 +22,7 @@ int main() {
     cout << "Sum of values: " << sumArray(arr) << endl;
 
     // Free the dynamically allocated memory
-    delete[] arr;
+    delete [] arr;
 
     return 0;
 }
